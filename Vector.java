@@ -1,11 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.function.Consumer;
-
-import javax.lang.model.element.Element;
 
 public class Vector<E> {
 
