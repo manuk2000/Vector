@@ -195,7 +195,7 @@ public class Vector<E> {
         }
 
         @Override
-        public void forEachRemaining(Consumer<? super E> action) {
+        public void forEachRemaining(Consumer<? extends E> action) {
             if (action == null) {
                 throw new NullPointerException();
             }
